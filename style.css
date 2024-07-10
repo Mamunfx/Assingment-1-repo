@@ -123,6 +123,7 @@
 .sec1-data a{
     text-decoration: none;
 }
+
 .sec2 {
   display: flex;
   flex-direction: column;
@@ -183,6 +184,8 @@
   width: 390px;
   height: 72px;
   margin: 16px 0px;
+  display: flex;
+  align-items: baseline;
 }
 
 #sec2-first p {
