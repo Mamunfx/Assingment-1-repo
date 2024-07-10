@@ -464,7 +464,7 @@ text-align: center;
 .sec5 p {
     width: 606px;
     height: 52px;
-    margin: 16px 0px;
+    margin: 41px 0px;
     opacity: 0.7;
     color: rgb(255, 255, 255);
     font-size: 17px;
@@ -476,7 +476,7 @@ text-align: center;
 .help{
     position: static;
     display: flex;
-    margin: 24px 0px;
+    margin: 12px 0px;
 }
 
 .help #input1 {
