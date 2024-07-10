@@ -12,26 +12,26 @@
     padding: 0;
 }
 .btn {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  position: static;
-  width: 150px;
-  height: 48px;
-  margin: 32px 0px;
-  font-family: Azeret Mono;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 23px;
-  text-align: center;
-  box-sizing: border-box;
-  border: 1px solid rgb(13, 19, 33);
-  opacity: 0.7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    width: 133px;
+    height: 41px;
+    margin: 32px 0px;
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    text-decoration: none;
 }
-.btn a {
+
+.sec2-first-1 a  {
   color: rgb(13, 19, 33);
   text-decoration: none;
 }
@@ -42,7 +42,7 @@
   width: 80vw;
   justify-content: space-between;
   align-items: center;
-  height: 13vh;
+  height: 15vh;
 }
 .top > button {
     box-sizing: border-box;
@@ -69,12 +69,11 @@
   background-image: url(./assets/Hero-bg.png);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 652px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 2px dashed rgba(128, 128, 128, 0.726);
-  border-top:  2px dashed rgba(128, 128, 128, 0.726);
 }
 .sec1-data {
   display: flex;
@@ -102,6 +101,7 @@
     opacity: 0.7;
     width: 852px;
     height: 52px;
+    margin: 7vh auto;
 }
 
 .sec1-data button {
@@ -131,6 +131,7 @@
   justify-content: center;
   align-items: center;
   padding: 80px 97px 80px 97px;
+  margin-top: 7vh;
 }
 
 .sec2 h3 {
@@ -170,12 +171,12 @@
   margin: 6vh 0vw;
 }
 
-.sec2-first #sec2-first {
+.sec2-first .sec2-first-1 {
   width: 45vw;
   height: 240px;
 }
 
-#sec2-first h3 {
+.sec2-first-1 h3 {
   color: rgba(13, 19, 33, 0.7);
   font-family: Azeret Mono;
   font-size: 24px;
@@ -189,7 +190,7 @@
   align-items: baseline;
 }
 
-#sec2-first p {
+.sec2-first-1 p {
   position: static;
   width: 468px;
   height: 52px;
