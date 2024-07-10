@@ -93,16 +93,14 @@
 }
 
 .sec1-data p {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0%;
-  text-align: center;
-  opacity: 0.7;
-  width: 852px;
-  height: 52px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    width: 852px;
+    height: 52px;
 }
 
 .sec1-data button {
@@ -426,4 +424,99 @@
     width: 284px;
     height: 20px;
     margin: 24px 0px;
+}
+
+
+.sec5{
+    margin: 0 auto;
+    width: 1140px;
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    background: url(./assets/handshake.jpg);
+    background-color: #0000008c;
+    background-blend-mode: overlay;
+    
+    background-position: center;
+    background-size: cover;
+}
+.sec5 h3{
+    color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+line-height: 0px;
+text-align: center;
+}
+.sec5 p {
+    width: 606px;
+    height: 52px;
+    margin: 16px 0px;
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.help{
+    position: static;
+    display: flex;
+    margin: 24px 0px;
+}
+
+.help #input1 {
+    position: static;
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    flex: none;
+    margin: 0px 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.help #sub {
+    position: static;
+    width: 120px;
+    height: 58px;
+    padding: 17px 20px 17px 20px;
+    margin: 0px 16px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    border: none;
+}
+
+footer{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8vh;
+}
+
+footer p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    margin-right: 32vw;
 }
